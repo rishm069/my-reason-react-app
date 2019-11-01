@@ -3,7 +3,8 @@ open Jest;
 describe("some test", () => {
 
   test("passes!", () => {
-    Expect.(expect(true) |> toBe(false));
+    Expect.(expect(true) |> toBe(true));
   });
 
 });
+
